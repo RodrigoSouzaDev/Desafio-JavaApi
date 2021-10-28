@@ -1,6 +1,6 @@
-# Desafio Tinnova :computer:
+# Desafio Java Api :computer:
 
-- [1.Votos]()
+- [1.Votos](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/1%20-%20Votos)
 
 - [2.BubbleSort]()
 
@@ -10,6 +10,7 @@
 
 ## 
 
-Este repositório contém os exercícios do desafio do processo seletivo que estou participando na Tinnova para desenvolvedor Java Júnior, acima você você encontra o link para cada um deles. 
+Este repositório contém os exercícios do desafio do processo seletivo que estou participando para desenvolvedor Java Júnior, acima você você encontra o link para cada um deles. 
 
 clique [aqui]() se quiser saber o quais são minhas considerações sobre esse desafio.
+

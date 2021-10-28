@@ -1,3 +1,15 @@
+# Índice
+
+- [2.BubbleSort]()
+
+- [3.Fatorial]()
+
+- [4.Multiplos de 3 e 5]()
+
+- [5.Api Cadastro de Veículos]()
+
+  
+
 # 1. Votos (exercício 1) 
 
 O exercício consistia em calcular percentuais baseados em uma tabela previamente fornecida, que representa o número de votos (válidos, brancos e nulos) e eleitores de uma eleição.
@@ -18,8 +30,8 @@ os percentuais pedidos eram:
 
 Para concluir esse desafio, segui a seguinte linha de pensamento: 
 
-- Criei uma classe chamada [Contagem]() para receber a contagem dos votos e o número de eleitores;
-- Criei uma classe chamada [Eleicao]() para receber uma instância de [Contagem]() e ficar responsável por realizar os cálculos necessários, retornando uma String com o resultado para cada um deles.
+- Criei uma classe chamada [Contagem](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/1%20-%20Votos/src/Contagem.java) para receber a contagem dos votos e o número de eleitores;
+- Criei uma classe chamada [Eleicao](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/1%20-%20Votos/src/Eleicao.java) para receber uma instância de [Contagem](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/1%20-%20Votos/src/Contagem.java) e ficar responsável por realizar os cálculos necessários, retornando uma String com o resultado para cada um deles.
 
 <image align="center" src="img/Result.PNG"/>
 
