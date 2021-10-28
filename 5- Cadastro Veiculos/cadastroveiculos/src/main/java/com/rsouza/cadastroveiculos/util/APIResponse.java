@@ -2,13 +2,13 @@ package com.rsouza.cadastroveiculos.util;
 
 import org.springframework.http.HttpStatus;
 
-public class APIResponse {
+public class ApiResponse {
 
     private int status;
     private Object payLoad;
     private Object error;
 
-    public APIResponse (){
+    public ApiResponse(){
         this.status = HttpStatus.OK.value();
         this.payLoad = payLoad;
         this.error = error;

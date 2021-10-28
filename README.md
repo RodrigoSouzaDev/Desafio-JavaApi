@@ -2,7 +2,7 @@
 
 - [1.Votos](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/1%20-%20Votos)
 
-- [2.BubbleSort]()
+- [2.BubbleSort](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/2%20-%20Bubble%20Sort)
 
 - [3.Fatorial]()
 - [4.Multiplos de 3 e 5]()

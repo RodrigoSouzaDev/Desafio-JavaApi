@@ -14,7 +14,7 @@ O exercício consistia em receber um vetor de numeros inteiros e ordená-lo util
 
 Para concluir esse desafio, segui a seguinte linha de pensamento:
 
-- Criei uma classe chamada [BubbleSort]() com um método estático chamado "sort", para não precisar instancia-la.
+- Criei uma classe chamada [BubbleSort](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/2%20-%20Bubble%20Sort/src/BubbleSort.java) com um método estático chamado "sort", para não precisar instancia-la.
 - Essa classe ficou responsável por receber um vetor e ordená-lo.
 - Para fazer o BubbleSort utilizei um "do while" que executaria enquanto um contador fosse diferente de 0. 
 - Dentro coloquei um "For" que percorria o tamanho do vetor -1 (ou seja, até o penúltimo item do vetor) e fiz com que toda vez que for executado, criei um inteiro j que percorria o vetor sempre um item acima do if.

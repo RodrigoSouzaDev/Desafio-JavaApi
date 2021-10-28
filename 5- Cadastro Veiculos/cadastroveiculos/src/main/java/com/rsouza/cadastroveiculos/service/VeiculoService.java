@@ -1,19 +1,16 @@
 package com.rsouza.cadastroveiculos.service;
 
-import com.rsouza.cadastroveiculos.model.Veiculo;
 import com.rsouza.cadastroveiculos.model.dto.VeiculoDto;
-import com.rsouza.cadastroveiculos.util.APIResponse;
+import com.rsouza.cadastroveiculos.util.ApiResponse;
 import javassist.NotFoundException;
-
-import java.util.List;
 
 public interface VeiculoService {
 
-    public APIResponse findAllVeiculos();
-    public APIResponse findVeiculoByName(String veiculo);
-    public APIResponse findVeiculoById(Long id) throws NotFoundException;
-    public APIResponse createVeiculo (VeiculoDto veiculoDto);
-    public APIResponse updateVeiculoHard(Long id, VeiculoDto veiculoDto) throws NotFoundException;
-    public APIResponse updateVeiculoSoft(Long id, VeiculoDto veiculoDto) throws NotFoundException;
-    public APIResponse deleteVeiculo(Long id) throws NotFoundException;
+    public ApiResponse findAllVeiculos();
+    public ApiResponse findVeiculoByName(String veiculo);
+    public ApiResponse findVeiculoById(Long id) throws NotFoundException;
+    public ApiResponse createVeiculo (VeiculoDto veiculoDto);
+    public ApiResponse updateVeiculoHard(Long id, VeiculoDto veiculoDto) throws NotFoundException;
+    public ApiResponse updateVeiculoSoft(Long id, VeiculoDto veiculoDto) throws NotFoundException;
+    public ApiResponse deleteVeiculo(Long id) throws NotFoundException;
 }

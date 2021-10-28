@@ -8,7 +8,7 @@ import com.rsouza.cadastroveiculos.model.Veiculo;
 import com.rsouza.cadastroveiculos.model.dto.VeiculoDto;
 import com.rsouza.cadastroveiculos.repository.VeiculoRepository;
 import com.rsouza.cadastroveiculos.service.VeiculoService;
-import com.rsouza.cadastroveiculos.util.APIResponse;
+import com.rsouza.cadastroveiculos.util.ApiResponse;
 import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -24,23 +24,23 @@ public class VeiculoServiceImpl implements VeiculoService {
     @Autowired
     private VeiculoRepository repository;
 
-    private APIResponse apiResponse;
+    private ApiResponse apiResponse;
     private VeiculoData data ;
     private  MessageData message = new MessageData() ;
     private ErrorData error = new ErrorData();
 
 
     @Override
-    public APIResponse findAllVeiculos() {
-        apiResponse = new APIResponse();
+    public ApiResponse findAllVeiculos() {
+        apiResponse = new ApiResponse();
         List<Veiculo> veiculoList = repository.findAll();
         validaVeiculoList(apiResponse, veiculoList);
         return apiResponse;
     }
 
     @Override
-    public APIResponse findVeiculoByName(String veiculo) {
-        apiResponse = new APIResponse();
+    public ApiResponse findVeiculoByName(String veiculo) {
+        apiResponse = new ApiResponse();
         List<Veiculo> veiculoList = repository.findVeiculoByVeiculo(veiculo);
         validaVeiculoList(apiResponse,veiculoList);
         return apiResponse;
@@ -48,8 +48,8 @@ public class VeiculoServiceImpl implements VeiculoService {
 
 
     @Override
-    public APIResponse findVeiculoById(Long id) throws NotFoundException {
-        apiResponse = new APIResponse();
+    public ApiResponse findVeiculoById(Long id) throws NotFoundException {
+        apiResponse = new ApiResponse();
         try {
             Veiculo veiculo = repository.findById(id).orElseThrow(()-> new NotFoundException("No Content"));
             data = new VeiculoData();
@@ -69,8 +69,8 @@ public class VeiculoServiceImpl implements VeiculoService {
     }
 
     @Override
-    public APIResponse createVeiculo(VeiculoDto veiculoDto) {
-        apiResponse = new APIResponse();
+    public ApiResponse createVeiculo(VeiculoDto veiculoDto) {
+        apiResponse = new ApiResponse();
         List<String> errorList = validaDto(veiculoDto);
         if (errorList.isEmpty()){
             try {
@@ -95,8 +95,8 @@ public class VeiculoServiceImpl implements VeiculoService {
     }
 
     @Override
-    public APIResponse updateVeiculoHard(Long id, VeiculoDto veiculoDto) throws NotFoundException {
-        apiResponse = new APIResponse();
+    public ApiResponse updateVeiculoHard(Long id, VeiculoDto veiculoDto) throws NotFoundException {
+        apiResponse = new ApiResponse();
         List<String> errorList = validaDto(veiculoDto);
 
         if (errorList.isEmpty()){
@@ -127,8 +127,8 @@ public class VeiculoServiceImpl implements VeiculoService {
 
 
     @Override
-    public APIResponse updateVeiculoSoft(Long id, VeiculoDto veiculoDto) throws NotFoundException {
-        apiResponse = new APIResponse();
+    public ApiResponse updateVeiculoSoft(Long id, VeiculoDto veiculoDto) throws NotFoundException {
+        apiResponse = new ApiResponse();
         try {
             Veiculo veiculo = repository.findById(id).orElseThrow(()-> new NotFoundException("No Content"));
             veiculo = validaAlteracoes(veiculoDto, veiculo);
@@ -149,8 +149,8 @@ public class VeiculoServiceImpl implements VeiculoService {
     }
 
     @Override
-    public APIResponse deleteVeiculo(Long id) throws NotFoundException {
-        apiResponse = new APIResponse();
+    public ApiResponse deleteVeiculo(Long id) throws NotFoundException {
+        apiResponse = new ApiResponse();
         try {
             repository.findById(id).orElseThrow(()-> new NotFoundException("No Content"));
             message.setMessage("Veículo excluído com sucesso");
@@ -165,7 +165,7 @@ public class VeiculoServiceImpl implements VeiculoService {
         return apiResponse;
     }
 
-    private void validaVeiculoList(APIResponse apiResponse, List<Veiculo> veiculoList) {
+    private void validaVeiculoList(ApiResponse apiResponse, List<Veiculo> veiculoList) {
         if(!veiculoList.isEmpty()){
             data = new VeiculoData();
             data.setVeiculos(veiculoList);
