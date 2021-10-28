@@ -1,6 +1,6 @@
 # Considerações
 
-Primeiramente gostaria de agradecer a oportunidade de participar deste processo seletivo, aprendi muito nesses 2 dias em que me dediquei para cumprir esses desafios.
+Primeiramente gostaria de agradecer a oportunidade de participar deste processo seletivo, aprendi muito nesses 2 dias em que me dediquei para cumprir os desafios.
 
 ### Referente aos 4 primeiros desafios
 
@@ -8,13 +8,13 @@ Os 4 primeiros desafios foram bem tranquilos, nada diferente da maioria dos exer
 
 ### Referente ao quinto desafio
 
-Criar uma API exige um pouco com certeza exige bem mais do que alguns exercícios, o cuidado que temos que ter com cada validação, retorno dos endpoints, e captura de exceções, exigem bem mais. Mas acredito que nesse quesito me sai bem.
+Criar uma API com certeza exige bem mais do que alguns exercícios, temos quer ter muito cuidado com cada validação, retorno dos endpoints, e captura de exceções. Mas acredito que nesse quesito me sai bem.
 
 ### O que não consegui fazer
 
 Comecei a fazer um front-end para a API com React, mas front-end não é um ramo que eu esteja acostumado, e foi meu primeiro contato direto com o framework, e também com o front-end em si .
 
-Algumas validações como o número de veículos não vendidos, e o número de criados na semana passada, seriam feitas no front-end...
+Algumas validações como o número de veículos não vendidos, e o número de veículos cadastrados na semana passada, seriam feitas no front-end...
 
 ### O que faria se tivesse mais tempo
 

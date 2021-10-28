@@ -6,7 +6,7 @@
 - [4.Multiplos de 3 e 5](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/4%20-%20Multiplos%20de%203%20e%205)
 - [5.Api Cadastro de Veículos](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/5-%20Cadastro%20Veiculos)
 
-# 1. Fatorial
+# 3. Fatorial
 
 O exercício consistia em receber um número inteiro e calcular seu fatorial. 
 

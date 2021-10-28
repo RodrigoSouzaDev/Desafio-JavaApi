@@ -10,7 +10,9 @@
 
 ## 
 
-Este repositório contém os exercícios do desafio do processo seletivo que estou participando para desenvolvedor Java Júnior, acima você você encontra o link para cada um deles. 
+Este repositório contém os exercícios do desafio doe um processo seletivo ao qual estou participando. O cargo é para Desenvolvedor Java Júnior. 
 
-clique [aqui](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/CONSIDERACOES.md) se quiser saber o quais são minhas considerações sobre esse desafio.
+Acima você encontra o link para cada um deles. 
+
+clique [aqui](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/CONSIDERACOES.md) se quiser saber quais são as minhas considerações sobre esse desafio.
 

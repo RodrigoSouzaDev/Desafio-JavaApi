@@ -28,3 +28,4 @@ Para concluir esse desafio, segui a seguinte linha de pensamento:
 - Criei uma classe chamada [Contagem](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/1%20-%20Votos/src/Contagem.java) para receber a contagem dos votos e o número de eleitores;
 - Criei uma classe chamada [Eleicao](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/1%20-%20Votos/src/Eleicao.java) para receber uma instância de [Contagem](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/1%20-%20Votos/src/Contagem.java) e ficar responsável por realizar os cálculos necessários, retornando uma String com o resultado para cada um deles.
 
+<image align="center" src="img/Result.PNG"/>
