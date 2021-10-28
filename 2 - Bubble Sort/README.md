@@ -2,11 +2,10 @@
 
 - [1.Votos](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/1%20-%20Votos)
 - 2.BubbleSort <== 
-- [3.Fatorial]()
-- [4.Multiplos de 3 e 5]()
-- [5.Api Cadastro de Veículos]()
-  
-# 1. BubbleSort (exercício 2) 
+- [3.Fatorial](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/3%20-%20Fatorial)
+- [4.Multiplos de 3 e 5](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/4%20-%20Multiplos%20de%203%20e%205)
+- [5.Api Cadastro de Veículos](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/5-%20Cadastro%20Veiculos)
+# 1. BubbleSort
 
 O exercício consistia em receber um vetor de numeros inteiros e ordená-lo utilizando o algoritmo de ordenação "Bubble Sort". 
 

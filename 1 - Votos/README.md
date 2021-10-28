@@ -1,11 +1,11 @@
 # Índice
 
-- 2.Votos <== 
+- 1.Votos <== 
 - [2.BubbleSort](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/2%20-%20Bubble%20Sort)
-- [3.Fatorial]()
-- [4.Multiplos de 3 e 5]()
-- [5.Api Cadastro de Veículos]()
-# 1. Votos (exercício 1) 
+- [3.Fatorial](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/3%20-%20Fatorial)
+- [4.Multiplos de 3 e 5](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/4%20-%20Multiplos%20de%203%20e%205)
+- [5.Api Cadastro de Veículos](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/5-%20Cadastro%20Veiculos)
+# 1. Votos
 
 O exercício consistia em calcular percentuais baseados em uma tabela previamente fornecida, que representa o número de votos (válidos, brancos e nulos) e eleitores de uma eleição.
 

@@ -1,9 +1,11 @@
 # Índice
 
 - [1.Votos](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/1%20-%20Votos)
+
 - [2.BubbleSort](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/2%20-%20Bubble%20Sort)
-- [3.Fatorial]()
-- [4.Múltiplos de 3 e 5]()
+
+- [3.Fatorial](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/3%20-%20Fatorial)
+- [4.Multiplos de 3 e 5](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/tree/main/4%20-%20Multiplos%20de%203%20e%205)
 - 5.Api Cadastro de Veículos <==
 
 # 5. Api Cadastro de Veículos  
@@ -29,8 +31,6 @@ Este exercício era o maior desafio apresentado dentre os 5, e por ser meio exte
 - [ ] Exibir a informação da distribuição de veículos por fabricante.
 
 
-
-
 ## Resultado
 
 Como dito acima, não conclui 100% o desafio, mas cheguei bem longe na parte da api. Irei deixar abaixo o que utilizei:
@@ -41,10 +41,9 @@ Como dito acima, não conclui 100% o desafio, mas cheguei bem longe na parte da 
 - Swagger: para documentar e exemplificar os endpoints da api.
 
 
-
 ## Endpoints criados
 
-- Todos os endpoints retornam no body uma classe chamada [ApiResponse]() que retorna o código da requisição, um payload com os dados daquela requisição, e uma lista de erros .
+- Todos os endpoints retornam no body uma classe chamada [ApiResponse](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/5-%20Cadastro%20Veiculos/cadastroveiculos/src/main/java/com/rsouza/cadastroveiculos/util/APIResponse.java) que retorna o código da requisição, um payload com os dados daquela requisição, e uma lista de erros .
 
   <image align="center" src="img/apiResponse.PNG"/>
 
@@ -54,7 +53,7 @@ Como dito acima, não conclui 100% o desafio, mas cheguei bem longe na parte da 
 
 obs: a ui do swagger pode ser acessada em "http://localhost:8080/swagger-ui/index.html#/"
 
-- Criei uma classe chamada VeiculoDto para não possibilitar os usuários de alterar alguns campos dos veículos como id, vendido, created, updated. 
+- Criei uma classe chamada [VeiculoDto](https://github.com/RodrigoSouzaDev/Desafio-JavaApi/blob/main/5-%20Cadastro%20Veiculos/cadastroveiculos/src/main/java/com/rsouza/cadastroveiculos/model/dto/VeiculoDto.java) para não possibilitar os usuários de alterar alguns campos dos veículos como id, vendido, created, updated. 
 
 <image align="center" src="img/veiculoDto.PNG"/>
 
