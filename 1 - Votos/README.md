@@ -1,15 +1,10 @@
 # Índice
 
+- 2.Votos <== 
 - [2.BubbleSort]()
-
 - [3.Fatorial]()
-
 - [4.Multiplos de 3 e 5]()
-
 - [5.Api Cadastro de Veículos]()
-
-  
-
 # 1. Votos (exercício 1) 
 
 O exercício consistia em calcular percentuais baseados em uma tabela previamente fornecida, que representa o número de votos (válidos, brancos e nulos) e eleitores de uma eleição.
